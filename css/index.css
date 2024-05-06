@@ -1605,6 +1605,34 @@ blockquote footer cite:before {
 blockquote > :last-child {
   margin-bottom: 0 !important;
 }
+body,
+html {
+  cursor: url("./mouse/Alt.cur"), auto !important;
+}
+img {
+  cursor: url("./mouse/Link.cur"), auto !important;
+}
+a:hover {
+  cursor: url("./mouse/Link.cur"), auto;
+}
+input:hover {
+  cursor: url("./mouse/Text.cur"), auto;
+}
+button:hover {
+  cursor: url("./mouse/Link.cur"), auto;
+}
+i:hover {
+  cursor: url("./mouse/Link.cur"), auto;
+}
+#footer-wrap a:hover {
+  cursor: url("./mouse/Link.cur"), auto;
+}
+#pagination .page-number:hover {
+  cursor: url("./mouse/Link.cur"), auto;
+}
+#nav .site-page:hover {
+  cursor: url("./mouse/Link.cur"), auto;
+}
 :root {
   --hl-color: #90a4ae;
   --hl-bg: #f6f8fa;
